@@ -1,1 +1,0 @@
-LOAD DATA INFILE '/home/mark/Desktop/data_input.csv' INTO TABLE Info FIELDS TERMINATED BY ','  LINES STARTING BY '"';
