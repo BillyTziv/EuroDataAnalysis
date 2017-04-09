@@ -1,0 +1,170 @@
+body {
+  font-family: 'Slabo 27px', serif;
+  background-color: #272822;
+  margin: auto;
+}
+
+#header_section {
+	background: #283E4A;
+	width: 100%;
+	height: 35px;
+}
+
+#header{
+	width: 60%;
+
+	color: white;
+	font-size: 22px;
+	font-weight: bold;
+	margin: 0px auto 0px auto;
+}
+
+#header_title {
+	line-height: 35px;
+	width: 30%;
+	float: left;
+	vertical-align: middle;
+}
+
+#header_subtitle {
+	line-height: 35px;
+	width: 70%;
+	float: left;
+
+	font-size:18px;
+	text-align: right;
+}
+
+#main {
+	background-color: #F5F5F5;
+
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 1200px;
+  	padding: 35px;
+}
+
+.main_header {
+	color: #272822;
+	width: 100%;
+	font-size: 20px;
+	font-family: 'Slabo 27px', serif;
+	text-align: left;
+	margin-top: 25px;
+}
+
+
+.main_box {
+	padding: 5px;
+}
+
+#after_indicator_list {
+	margin-bottom: 25px;
+}
+
+#find_countries {
+	background-color: #565656;
+	height: 30px;
+	border-color: #323232;
+	border-radius: 15px;
+	padding-left: 15px;
+	font-weight: bold;
+	font-size: 14px;
+	width: 180px;
+	color: white;
+	margin-top: 15px;
+	box-shadow: #566a8c 0px 0px 5px;
+	-moz-transition: all 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
+	-ms-transition: all 0.35s ease-in-out;
+	transition: all 0.35s ease-in-out;
+}
+
+#find_countries:hover {
+	color: red;
+}
+
+#step1_button {
+	height: 30px;
+	float: left;
+	line-height: 35px;
+}
+
+#step1_verification {
+	height: 30px;
+	font-weight: bold;
+	float: left;
+	color: green;
+	margin-top: 15px;
+	padding-left: 35px;
+	line-height: 30px;
+}
+
+#results {
+	width: 1000px;
+	background: white;
+	height: auto;
+	margin: 25px auto 0 auto;
+	color: black;
+}
+
+#submit_button {
+	height: 30px;
+	float: left;
+	line-height: 35px;
+}
+
+#step3_verification {
+	height: 30px;
+	font-weight: bold;
+	float: left;
+	color: green;
+	margin-top: 15px;
+	padding-left: 35px;
+	line-height: 30px;
+}
+
+#visualize_button {
+	background-color: darkred;
+	height: 30px;
+	border-color: #323232;
+	border-radius: 15px;
+	padding-left: 15px;
+	font-weight: bold;
+	font-size: 14px;
+	width: 180px;
+	color: white;
+	margin-top: 15px;
+	box-shadow: #566a8c 0px 0px 5px;
+	-moz-transition: all 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
+	-ms-transition: all 0.35s ease-in-out;
+	transition: all 0.35s ease-in-out;
+}
+
+#visualize_button:hover {
+	background: red;
+}
+
+#results_title {
+	width: 150px;
+	text-align: center;
+	font-size: 26px;
+	margin: 0px auto 0px auto;
+	height: 15%;
+	font-weight: bold;
+	color: #283E4A;
+}
+
+#results_stats table {
+	width: 100%;
+}
+
+#results_stats table td {
+	text-align: center;
+	color: darkblue;
+}
+
+#results_graph {
+
+}
